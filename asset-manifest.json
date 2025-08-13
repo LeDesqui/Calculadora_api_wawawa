@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Calculadora_api_wawawa/static/css/main.3e0d092a.css",
+    "main.js": "/Calculadora_api_wawawa/static/js/main.fb1e6e3f.js",
+    "static/js/453.670e15c7.chunk.js": "/Calculadora_api_wawawa/static/js/453.670e15c7.chunk.js",
+    "index.html": "/Calculadora_api_wawawa/index.html",
+    "main.3e0d092a.css.map": "/Calculadora_api_wawawa/static/css/main.3e0d092a.css.map",
+    "main.fb1e6e3f.js.map": "/Calculadora_api_wawawa/static/js/main.fb1e6e3f.js.map",
+    "453.670e15c7.chunk.js.map": "/Calculadora_api_wawawa/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e0d092a.css",
+    "static/js/main.fb1e6e3f.js"
+  ]
+}
