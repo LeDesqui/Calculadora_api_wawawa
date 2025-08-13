@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#2F3A3C;
+    display: grid;
+    place-items: center;
+    justify-content: center
+}
+
+
+#CalcPrincipal{
+    margin:2rem;
+    width: 40vw;
+    height: auto;
+    aspect-ratio: 53/58;
+    background-image: url("../../CalculadoraTest/src/main/resources/static/Otros/CalculadoraImg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    image-rendering: pixelated;
+    background-position: center;
+
+    border: 2px solid red;
+
+    overflow: hidden;
+
+
+    position: relative;
+
+}
+
+/* 27.8 vw*/
+
+#CalcBotones{
+    position: absolute;
+    left:1.9%;
+    top:12%;
+    width: 69.75%;
+    height: auto;
+    aspect-ratio: 37.7/50;
+    border: 1px solid violet;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 3%;
+    padding:4%;
+
+    box-sizing: border-box;
+
+}
+
+#result{
+    grid-column: 1/5;
+    width:97%;
+    height: auto;
+    aspect-ratio: 35.5/8;
+    background-image: url("../../CalculadoraTest/src/main/resources/static/Otros/pantalla.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border: 1px solid blueviolet;
+
+}
+
+#NumeroResultado{
+    position: absolute;
+    width:80.2%;
+    aspect-ratio: 35.6/6;
+    height: auto;
+    top:6.5%;
+    left:8.5%;
+    text-align: right;
+    padding: 1%;
+    padding-right: 3%;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+.Numero{
+    width:4vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-image: url("../../CalculadoraTest/src/main/resources/static/Otros/boton1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+
+}
+
+.Tecla{
+    width:4vw;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-image: url("../../CalculadoraTest/src/main/resources/static/Otros/boton2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
+#Igual{
+    background-image: url("../../CalculadoraTest/src/main/resources/static/Otros/boton3.png");
+}
+
